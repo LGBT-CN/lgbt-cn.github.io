@@ -43,8 +43,6 @@ jobs:
       run: |
         rm -rf .git
         rm -rf .github
-        git config user.name KevinZonda
-        git config user.email 33132228+KevinZonda@users.noreply.github.com
         cd ..
         git clone https://github.com/LGBT-CN/lgbt-cn.github.io N
         cd N
@@ -57,6 +55,8 @@ jobs:
         cp lgbt-cn.github.io/* M/*
         cd M
         ls -al
+        git config user.name KevinZonda
+        git config user.email 33132228+KevinZonda@users.noreply.github.com
         git add .
         git commit -m "S.C.: `date "+%Y-%m-%d %H:%M:%S UTC%:z"`" || true
         git push
