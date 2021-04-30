@@ -1,0 +1,45 @@
+name: Build Kvm
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 5.0.x
+
+    - name: Clone Kvm
+      run: |
+        cd kvm
+        git clone https://github.com/LGBT-CN/Kvm
+        cd Kvm
+        dotnet restore
+        dotnet build --no-restore --configuration Release
+    - name: Copy Data
+      run: |
+        cp -rf kvm/* kvm/Kvm/Kvm.ConsoleApp/bin/Release/net5.0/
+        mkdir -p kvm/Kvm/Kvm.ConsoleApp/bin/Release/net5.0/out/page
+    - name: Compile Kvm
+      run: |
+        cd kvm/Kvm/Kvm.ConsoleApp/bin/Release/net5.0/
+        dotnet ./Kvm.ConsoleApp.dll
+    - name: Combine files
+      run: |
+        mv kvm/Kvm/Kvm.ConsoleApp/bin/Release/net5.0/out/* ./
+    - name: Clean Kvm
+      run: |
+        rm -rf kvm
+    - name: Upload compiled files
+      uses: actions/upload-artifact@v2.2.3
+      with:
+        path: ./
