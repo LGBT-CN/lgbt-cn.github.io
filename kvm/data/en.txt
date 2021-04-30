@@ -1,0 +1,23 @@
+lang=en-gb
+Description=Chinese LGBTQIA population is eager for freedom and equality
+About=About
+Support=Support
+Lang1=简体中文
+Lang1Href=/
+Lang2=繁体中文
+Lang2Href=/page/zh-TW.html
+MainTitle=PEOPLE ARE BORN FREE AND EQUAL
+Slogan=
+ProjectTarget=The purpose of this project is to arouse LGBTQIA programmers' pursuit of freedom and equality, even if we all know that it will not have a great impact. Whether it is heterosexual, homosexual, bisexual, transgender, heterosexual, bisexual, asexual, everyone is born equal and has equal human rights, which can not be denied.
+AboutLGBTQIA=About LGBTQIA
+WhatsLGBTQIA=What is LGBTQIA?
+LGBTQIADefinition=<strong>LGBTQIA</strong> is an acronym, which stands for lesbian, gay, bisexual, transgender, questioning, intersexual, asexual, sexual minorities that need to be respected because we are born with it.
+WhyCreate=Why was this project established?
+ReasonCreate=Due to Chinese traditional cultural background, LGBTQIA is very unpopular in China and cannot be recognized and respected by others. The purpose of this project is to find LGBTQIA among open-source workers or those who support LGBTQIA's equal rights, so as to improve the situation of LGBTQIA in China from public opinion. Although the impact will not be great, it is better than none.
+WhyNeedEquality=Why do LGBTQIA need equal rights?
+ReasonNeedEquality=LGBTQIA are a minority, although LGBTQIA are the ordinary as well. However, it cannot deny that we are not all the same as the majority of the heterosexuals. For example, sometimes our political rights are not fully guaranteed. Freedom and equality are always important in the nowadays society. In China, LGBTQIA have not actual freedom and equality. In order to let such people have a normal life, we need to fight for the equal rights.
+HowToRespect=How to respect LGBTQIA?
+WaysToRespect=What you need to do, is just treat LGBTQIA as the ordinary, like any your friend. Remember that LGBTQIA is not any kind of disease, even though there are physiological differences. Meanwhile, LGBTQIA require more care than heterosexual, due to lacking security sense and the hope to be recognised.
+WaysToSupport=<p>If you support LGBTQIA to get equal rights, welcome to the  <a href="https://github.com/LGBT-CN/LGBTQIA-In-China/blob/master/README/en-GB.md">README.md</a>  Leave your name in <a href="https://github.com/LGBT-CN/LGBTQIA-in-China/">GitHub repository</a>, and star us as support! At the same time, you can also write an article about Chinese LGBTQIA, and provide us with the original link and Markdown file (as a backup). As long as the content of the article is related to LGBTQIA or any person in LGBTQIA, we will approve it. The names of all the supporters and the articles they provide are listed in <a href="https://github.com/LGBT-CN/LGBTQIA-in-China/blob/master/README.md">README.md</a> .</p>
+PRTip=Try to commit by pull requests (please commit the article in /post) .
+FooterSaying=Love is love. We're the same.<br>在爱面前我们都一样。

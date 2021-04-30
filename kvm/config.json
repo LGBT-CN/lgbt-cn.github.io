@@ -1,0 +1,17 @@
+[
+  {
+    "ModelPath": "model/index.kvm",
+    "PropPath": "data/zh.txt",
+    "OutPath": "out/index.html"
+  },
+  {
+    "ModelPath": "model/index.kvm",
+    "PropPath": "data/tw.txt",
+    "OutPath": "out/page/zh-TW.html"
+  },
+  {
+    "ModelPath": "model/index.kvm",
+    "PropPath": "data/en.txt",
+    "OutPath": "out/page/en-GB.html"
+  }
+]

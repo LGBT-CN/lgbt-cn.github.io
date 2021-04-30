@@ -1,0 +1,29 @@
+#############################
+# DEFAULT LANGUAGE PROPERTY #
+# DATE: 26/04/2021          #
+# DON'T MODIFY EXCEPT NECE- #
+# SSARY!                    #
+#############################
+lang=
+Description=
+About=
+Support=
+Lang1=
+Lang1Href=
+Lang2=
+Lang2Href=
+MainTitle=
+Slogan=
+ProjectTarget=
+AboutLGBTQIA=
+WhatsLGBTQIA=
+LGBTQIADefinition=
+WhyCreate=
+ReasonCreate=
+WhyNeedEquality=
+ReasonNeedEquality=
+HowToRespect=
+WaysToRespect=
+WaysToSupport=
+PRTip=
+FooterSaying=

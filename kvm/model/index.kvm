@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="{%lang%}">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="renderer" content="webkit" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="Cache-Control" content="no-siteapp, no-transform" />
+    <meta name="theme-color" content="gray">
+    <meta name="author" content="LGBTQIA-in-China">
+    <meta name="description" content="{%Description%}">
+    <meta name="keywords"
+        content="LGBTQIA, LGBT, Homosexual, gay, lesbian, transgender, intersexual, asexual, bisexual, queer, questioning, 同性恋, 跨性别, 双性人, 酷儿, 双性恋, 疑性恋">
+    <title>LGBTQIA in China</title>
+    <link rel="icon" href="/static/favicon.ico" type="image/x-icon"/>  
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Noto+Sans+SC:300|Noto+Serif+SC:300|ZCOOL+KuaiLe|ZCOOL+XiaoWei&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/twbs/bootstrap/dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/alvarotrigo/fullPage.js/dist/fullpage.min.css">
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_1640253_7ac8t2q6btg.css">
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_1912611_olza2ei6vv.css">
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav" id="nav">
+            <h1 class="nav-title"><em class="iconfont icon-flag"></em> LGBTQIA in China</h1>
+            <div class="nav-content">
+                <a href="#about"><em class="iconfont icon-about"></em> {%About%}</a>
+                <a href="#support"><em class="iconfont icon-thumbs-o-up"></em> {%Support%}</a>
+                <a>|</a>
+                <a href="{%Lang1Href%}">{%Lang1%}</a>
+                <a href="{%Lang2Href%}">{%Lang2%}</a>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div id="fullpage">
+            <!-- equal part -->
+            <div class="section" id="equal">
+                <div class="equal-content">
+                    <h1 class="main-title">{%MainTitle%}</h1>
+                    <div class="devider">
+                        <div id="red"> </div>
+                        <div id="orange"> </div>
+                        <div id="yellow"> </div>
+                        <div id="green"> </div>
+                        <div id="blue"> </div>
+                        <div id="purple"> </div>
+                    </div>
+                    <blockquote>{%Slogan%}</blockquote>
+                    <p>
+                        {%ProjectTarget%}
+                    </p>
+                    <div class="button-group">
+                        <a href="https://github.com/LGBT-CN/LGBTQIA-in-China" class="button button-github button-margin-right-8px"><em 
+                            class="iconfont icon-GitHub"></em> GitHub</a>
+                        <a href="https://t.me/LGBTCN" class="button button-telegram">
+                            <em class="iconfont icon-telegram"></em> Telegram</a>
+                    </div>
+                </div>
+                <div class="equal-flag">
+                    <img src="https://cdn.jsdelivr.net/gh/LGBT-CN/logo@0bfed07/v0/flag.svg" alt="LGBTQIA Flag">
+                </div>
+            </div>
+            <!-- about part -->
+            <div class="section" id="about">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="about-section col-md-12" id="about-title">
+                            <h1>{%AboutLGBTQIA%}</h1>
+                            <div class="devider">
+                                <div id="red"> </div>
+                                <div id="orange"> </div>
+                                <div id="yellow"> </div>
+                                <div id="green"> </div>
+                                <div id="blue"> </div>
+                                <div id="purple"> </div>
+                            </div>
+                        </div>
+                        <div class="about-section col-md-6" id="about-1">
+                            <h2>{%WhatsLGBTQIA%}</h2>
+                            <p>
+                                {%LGBTQIADefinition%}
+                            </p>
+                        </div>
+                        <div class="about-section col-md-6" id="about-2">
+                            <h2>{%WhyCreate%}</h2>
+                            <p>
+                                {%ReasonCreate%}
+                            </p>
+                        </div>
+                        <div class="about-section col-md-6" id="about-3">
+                            <h2>{%WhyNeedEquality%}</h2>
+                            <p>
+                                {%ReasonNeedEquality%}
+                            </p>
+                        </div>
+                        <div class="about-section col-md-6" id="about-4">
+                            <h2>{%HowToRespect%}</h2>
+                            <p>
+                                {%WaysToRespect%}
+                            </p>
+                        </div>
+                    </div>
+                    <br><br>
+                </div>
+            </div>
+            <!-- support -->
+            <div class="section" id="support">
+                <h1>
+                    {%Support%}
+                </h1>
+                <hr>
+                <p>
+                    {%WaysToSupport%}
+                </p>
+                <p style="color: cadetblue">
+                    <em class="iconfont icon-fork"></em>
+                    {%PRTip%}
+                </p>
+                <p id="sayings"><span style="color:red;font-size: 25px;">❤</span><br>
+                    {%FooterSaying%}
+                </p>
+                <br>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <p>Copyright &copy; 2021 <a href="https://github.com/LGBT-CN/LGBTQIA-in-China">
+            <em class="iconfont icon-flag"></em> LGBTQIA in China</a>, All Rights Reserved.</p>
+        </div>
+        <script>
+            var new_scroll_position = 0;
+            var last_scroll_position;
+            var header = document.getElementById("nav");
+
+            window.addEventListener('scroll', function (e) {
+                last_scroll_position = window.scrollY;
+
+                if (new_scroll_position < last_scroll_position && last_scroll_position > 80) {
+                    header.classList.remove("slideDown");
+                    header.classList.add("slideUp");
+
+                } else if (new_scroll_position > last_scroll_position) {
+                    header.classList.remove("slideUp");
+                    header.classList.add("slideDown");
+                }
+
+                new_scroll_position = last_scroll_position;
+            });
+        </script>
+    </footer>
+</body>
+
+</html>
