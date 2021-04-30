@@ -41,11 +41,11 @@ jobs:
         rm -rf KvmC
         rm -rf .github
     - name: Commit to Pages
-    - uses: JamesIves/github-pages-deploy-action@4.0.0
-        with:
-          branch: gh-pages
-          folder: ./
-          clean: true
+      uses: JamesIves/github-pages-deploy-action@4.0.0
+      with:
+        branch: gh-pages
+        folder: ./
+        clean: true
     # - name: Upload compiled files
     #   uses: actions/upload-artifact@v2.2.3
     #   with:
