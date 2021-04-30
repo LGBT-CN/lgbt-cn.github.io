@@ -39,27 +39,13 @@ jobs:
       run: |
         rm -rf kvm
         rm -rf KvmC
-    - name: Commit to Pages
-      run: |
-        rm -rf .git
         rm -rf .github
-        cd ..
-        git clone https://github.com/LGBT-CN/lgbt-cn.github.io N
-        cd N
-        git checkout gh-page
-        mkdir M
-        mv .git M
-        mv M ../
-        cd ..
-        rm -fr N
-        cp lgbt-cn.github.io/* M/*
-        cd M
-        ls -al
-        git config user.name KevinZonda
-        git config user.email 33132228+KevinZonda@users.noreply.github.com
-        git add .
-        git commit -m "S.C.: `date "+%Y-%m-%d %H:%M:%S UTC%:z"`" || true
-        git push
+    - name: Commit to Pages
+    - uses: JamesIves/github-pages-deploy-action@4.0.0
+        with:
+          branch: gh-pages
+          folder: ./
+          clean: true
     # - name: Upload compiled files
     #   uses: actions/upload-artifact@v2.2.3
     #   with:
