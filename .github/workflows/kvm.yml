@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-
+  
     runs-on: ubuntu-latest
 
     steps:
@@ -18,7 +18,7 @@ jobs:
       with:
         dotnet-version: 5.0.x
 
-    - name: Clone Kvm
+    - name: Build Kvm
       run: |
         git clone https://github.com/LGBT-CN/Kvm KvmC
         cd KvmC
@@ -28,7 +28,7 @@ jobs:
       run: |
         cp -rf kvm/* KvmC/Kvm.ConsoleApp/bin/Release/net5.0/
         mkdir -p KvmC/Kvm.ConsoleApp/bin/Release/net5.0/out/page
-    - name: Compile Kvm
+    - name: Compile .kvm files
       run: |
         cd KvmC/Kvm.ConsoleApp/bin/Release/net5.0/
         dotnet ./Kvm.ConsoleApp.dll
@@ -40,12 +40,15 @@ jobs:
         rm -rf kvm
         rm -rf KvmC
         rm -rf .github
+    - name: Create pages foundamentals
+      run: |
+        echo "lgbt-cn.org" > CNAME
     - name: Commit to Pages
-    - uses: JamesIves/github-pages-deploy-action@4.0.0
-        with:
-          branch: gh-pages
-          folder: ./
-          clean: true
+      uses: JamesIves/github-pages-deploy-action@4.0.0
+      with:
+        branch: gh-pages
+        folder: ./
+        clean: true
     # - name: Upload compiled files
     #   uses: actions/upload-artifact@v2.2.3
     #   with:
