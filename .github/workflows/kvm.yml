@@ -32,20 +32,16 @@ jobs:
         dotnet ./Kvm.ConsoleApp.dll
     - name: Combine files
       run: |
-        mv KvmC/Kvm.ConsoleApp/bin/Release/net5.0/out/* ./
-    - name: Clean Kvm
-      run: |
-        rm -rf kvm
-        rm -rf KvmC
-        rm -rf .github
+        mv static KvmC/Kvm.ConsoleApp/bin/Release/net5.0/out/
+
     - name: Create pages foundamentals
       run: |
-        echo "lgbt-cn.org" > CNAME
+        echo "lgbt-cn.org" > KvmC/Kvm.ConsoleApp/bin/Release/net5.0/out/CNAME
     - name: Commit to Pages
       uses: JamesIves/github-pages-deploy-action@4.0.0
       with:
         branch: gh-pages
-        folder: ./
+        folder: KvmC/Kvm.ConsoleApp/bin/Release/net5.0/out
         clean: true
     # - name: Upload compiled files
     #   uses: actions/upload-artifact@v2.2.3
