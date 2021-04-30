@@ -39,7 +39,15 @@ jobs:
       run: |
         rm -rf kvm
         rm -rf KvmC
-    - name: Upload compiled files
-      uses: actions/upload-artifact@v2.2.3
-      with:
-        path: ./
+    - name: Commit to Pages
+      run: |
+        git checkout gh-page
+        git config user.name KevinZonda
+        git config user.email 33132228+KevinZonda@users.noreply.github.com
+        git add .
+        git commit -m "S.C.: `date "+%Y-%m-%d %H:%M:%S UTC%:z"`" || true
+        git push
+    # - name: Upload compiled files
+    #   uses: actions/upload-artifact@v2.2.3
+    #   with:
+    #     path: ./
