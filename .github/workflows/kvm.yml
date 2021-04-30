@@ -56,6 +56,7 @@ jobs:
         rm -fr N
         cp lgbt-cn.github.io/* M/*
         cd M
+        ls -al
         git add .
         git commit -m "S.C.: `date "+%Y-%m-%d %H:%M:%S UTC%:z"`" || true
         git push
