@@ -4,8 +4,10 @@ About=About
 Support=Support
 Lang1=简体中文
 Lang1Href=/
-Lang2=繁体中文
+Lang2=繁體中文
 Lang2Href=/page/zh-TW.html
+Lang3=English
+Lang3Href=/page/en-GB.html
 MainTitle=PEOPLE ARE BORN FREE AND EQUAL
 Slogan=
 ProjectTarget=The purpose of this project is to arouse LGBTQIA programmers' pursuit of freedom and equality, even if we all know that it will not have a great impact. Whether it is heterosexual, homosexual, bisexual, transgender, heterosexual, bisexual, asexual, everyone is born equal and has equal human rights, which can not be denied.
@@ -20,4 +22,4 @@ HowToRespect=How to respect LGBTQIA?
 WaysToRespect=What you need to do, is just treat LGBTQIA as the ordinary, like any your friend. Remember that LGBTQIA is not any kind of disease, even though there are physiological differences. Meanwhile, LGBTQIA require more care than heterosexual, due to lacking security sense and the hope to be recognised.
 WaysToSupport=<p>If you support LGBTQIA to get equal rights, welcome to the  <a href="https://github.com/LGBT-CN/LGBTQIA-In-China/blob/master/README/en-GB.md">README.md</a>  Leave your name in <a href="https://github.com/LGBT-CN/LGBTQIA-in-China/">GitHub repository</a>, and star us as support! At the same time, you can also write an article about Chinese LGBTQIA, and provide us with the original link and Markdown file (as a backup). As long as the content of the article is related to LGBTQIA or any person in LGBTQIA, we will approve it. The names of all the supporters and the articles they provide are listed in <a href="https://github.com/LGBT-CN/LGBTQIA-in-China/blob/master/README.md">README.md</a> .</p>
 PRTip=Try to commit by pull requests (please commit the article in /post) .
-FooterSaying=Love is love. We're the same.<br>在爱面前我们都一样。
+FooterSaying=Love is love. We're the same.
