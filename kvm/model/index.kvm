@@ -33,6 +33,7 @@
                 <a>|</a>
                 <a href="{%Lang1Href%}">{%Lang1%}</a>
                 <a href="{%Lang2Href%}">{%Lang2%}</a>
+                <a href="{%Lang3Href%}">{%Lang3%}</a>
             </div>
         </div>
     </nav>
