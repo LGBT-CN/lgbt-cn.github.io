@@ -34,9 +34,6 @@ jobs:
       run: |
         mv static KvmC/Kvm.ConsoleApp/bin/Release/net5.0/out/
 
-    - name: Create pages foundamentals
-      run: |
-        echo "lgbt-cn.org" > KvmC/Kvm.ConsoleApp/bin/Release/net5.0/out/CNAME
     - name: Commit to Pages
       uses: JamesIves/github-pages-deploy-action@4.0.0
       with:
